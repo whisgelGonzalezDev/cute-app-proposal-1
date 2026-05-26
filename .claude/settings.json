@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh -T git@github.com)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(ls ~/.ssh/ 2>&1)",
+      "Read(//c/Users/whisg/.ssh/**)",
+      "Bash(ssh-keygen -t ed25519 -C \"whisgeljesus10@gmail.com\" -f ~/.ssh/id_ed25519 -N \"\")"
+    ]
+  }
+}
